@@ -1,0 +1,50 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+float a, b, c, d, e, x, y, z;
+ 
+cout <<"==========================================="<<endl;
+cout <<"      Perkiraan biaya       "<<endl;
+cout <<"        listrik      "<<endl;
+cout <<"=========================================="<<endl;
+
+
+
+cout << "Jumlah lampu: ";
+cin >> a;
+cout << "Jumlah AC: ";
+cin >> b;
+cout << "Jumlah TV: ";
+cin >> c;
+cout << "Jumlah kipas angin: ";
+cin >> d;
+
+
+
+
+
+cout << "\n dalam 1 bulan."<<endl;
+
+cout << "========================================================="<<endl;
+
+cout << " 1. lampu"<<"\t"<<"\t\t\t   Rp."<<a*30*24*5<<endl;
+cout << " 2. AC"<<"\t\t\t   Rp."<<b*30*24*1000<< endl;
+cout << " 3. TV"<<"\t\t\t   Rp."<<c*30*24*50<<  endl;
+cout << " 4. Kipas angin"<<"\t\t\t   Rp."<<d*30*24*100<<  endl;
+
+
+cout << "========================================================="<<endl;
+
+y=b*30*24*5+c*30*24*1000+d*30*24*100;
+z=y/1000;
+
+cout << "Total kWH perbulan Rp."<<y<<endl;
+cout<<"biaya listrik 1.500 per kWH"<<endl;
+cout<<"biaya listrik 1 bulan"<<endl <<z*1.500<<endl;
+
+
+
+	return 0;
+}
